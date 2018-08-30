@@ -1,7 +1,39 @@
-.wrapper {
-    max-width: 1200px;
-    min-width: 300px;
-    width: 80%;
-    background-color: aqua;
+body{
+    background-color: #c5dfc5;
+}
+
+h1 {
+    margin: 0 5em;
+}
+
+h1 *{
     margin: 0 auto;
+}
+
+
+header {
+    padding: 2em 0;
+}
+
+header * {
+    display: inline;
+}
+
+nav {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-left: 25em;
+    margin-top: 5em;
+    padding: 1em;
+    width: 70%;
+}
+
+nav *{
+    display: inline;
+    margin: 0 3.5em;
+}
+
+.articulo *
+{
+    display: inline;
 }
