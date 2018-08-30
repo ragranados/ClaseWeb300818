@@ -2,13 +2,7 @@ body{
     background-color: #c5dfc5;
 }
 
-h1 {
-    margin: 0 5em;
-}
 
-h1 *{
-    margin: 0 auto;
-}
 
 
 header {
@@ -28,12 +22,20 @@ nav {
     width: 70%;
 }
 
-nav *{
+nav ul li{
     display: inline;
     margin: 0 3.5em;
 }
 
-.articulo *
-{
+.articulo img {
+    display: inline-block;
+    width: 28%
+}
+
+.articulo .enlinea{
     display: inline;
+}
+
+.articulo div{
+    
 }
